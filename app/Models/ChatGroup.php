@@ -10,6 +10,6 @@ class ChatGroup extends Model
     use HasFactory;
 
     public function messages() {
-        return $this->hasMany('App\Models\ChatMessage');
+        return $this->hasMany('App\Models\ChatMessage'); //model chatmessage
     }
 }
